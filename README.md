@@ -1,3 +1,3 @@
 # BMI
 keep tracking your BMI
-https://pearli319.github.io/bmi/
+- https://pearli319.github.io/bmi/
