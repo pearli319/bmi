@@ -1,0 +1,233 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td { margin:0; padding:0; }
+body { background:#fff; color:#555; font-size:14px; font-family: Verdana, Arial, Helvetica, sans-serif; }
+td,th,caption { font-size:14px; }
+h1, h2, h3, h4, h5, h6 { font-weight:normal; font-size:100%; }
+address, caption, cite, code, dfn, em, strong, th, var { font-style:normal; font-weight:normal;}
+a { color:#555; text-decoration:none; }
+a:hover { text-decoration:underline; }
+img { border:none; }
+ol,ul,li { list-style:none; }
+input, textarea, select, button { font:14px Verdana,Helvetica,Arial,sans-serif; }
+table { border-collapse:collapse; }
+html {overflow-y: scroll;} 
+.clearfix:after {content: "."; display: block; height:0; clear:both; visibility: hidden;}
+.clearfix { *zoom:1; }
+
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+    background: #c7c2c224;
+}
+
+input:focus{
+    outline:none
+}
+
+#header {
+    background-color: #424242;
+    text-align: center;
+    padding: 89px;
+    min-height: 184px;
+}
+
+#bmi-logo {
+    height: 117px;
+    width: 117px;
+    position: relative;
+    right: 160px;
+}
+
+.header-context {
+    display: inline-block;
+    vertical-align: middle;
+}
+.text {
+    margin-left: -190px;
+    font-size: 18px;
+    color: #FFD366;
+}
+
+#height{
+    margin-bottom: 30px;
+}
+
+.inform{
+    max-width: 250px;
+    height: 40px;
+    padding: 4px;
+    background: rgba(255,255,255,0.18);
+    border: 2px solid #FFD366;
+    border-radius: 10px;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+.show-btn {
+    position: relative;
+    left: 70px;
+    width: 123px;
+    height: 123px;
+}
+
+.result-btn {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    background-color: #FFD366;
+    font-size: 24px;
+    color: #424242;
+    border: none;
+    cursor: pointer;
+}
+
+.result-btn:focus {
+    outline: none;
+}
+
+.result-btn:hover {
+    background: #FFD366;
+    box-shadow: 0 1px 6px 3px rgba(255,195,49,0.64);
+}
+
+.result-btn:active {
+    background: #DEA921;
+    box-shadow: none;
+}
+
+.result-demo{
+    width: 123px;
+    height: 123px;
+    border: 6px solid;
+    border-radius: 50%;
+    position: relative;
+    bottom: 50px;
+    display: none;
+}
+
+.show-bmi-num {
+    position: absolute;
+    right: 0;
+    bottom: 45px;
+    left: 0;
+    font-size: 32px;
+}
+
+.show-bmi-text {
+    position: absolute;
+    right: 0;
+    bottom: 30px;
+    left: 0;
+    font-size: 14px;
+}
+
+.return-btn {
+    position: absolute;
+    top: 85px;
+    left: 95px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.return-btn:focus {
+    outline: none;
+}
+
+section {
+    position: relative;
+    min-height: 260px;
+}
+
+ul li {
+    list-style: none;
+    background: #FFFFFF;
+    max-width: 660px;
+    min-height: 62px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.data {
+    font-size: 20px;
+    color: #4A4A4A;
+    position: relative;
+    bottom: 21px;
+}
+
+
+
+.status {
+    width: 80px;
+    display: inline-block;
+    margin-right: 40px;
+}
+
+.bmi {
+    margin-right: 35px;
+}
+
+.w {
+    margin-right: 35px;
+}
+
+.h {
+    margin-right: 35px;
+}
+
+.small {
+    font-size: 12px;
+    color: #424242;
+    display: inline-block;
+    position: relative;
+    bottom: 3px;
+}
+
+.date {
+    font-size: 12px;
+    color: #424242;
+    display: inline-block;
+}
+
+.delete {
+    margin-left: 15px;
+    display: inline-block;
+    position: relative;
+    top: -21px;
+    cursor: pointer;
+}
+
+.title {
+    text-align: center;
+    font-size: 24px;
+    color: #424242;
+    padding-top: 50px;
+    margin-bottom: 15px;
+}
+ .color {
+    display: inline-block;
+    width: 7px;
+    height: 62px;
+ }
+
+footer{
+    position: relative;
+    bottom: 0;
+    height: 90px;
+    width: 100%;
+    background: #FFD366;
+    line-height: 90px;
+    text-align:  center;
+    display: block;
+}
+
+.footer-logo {
+    vertical-align: middle;
+    height: 55px;
+    width: 55px;
+    filter: invert(0.7);
+    z-index: 2;
+}
